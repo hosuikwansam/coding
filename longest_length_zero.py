@@ -5,16 +5,7 @@ e.g. input: 100300040000
      expected output: 4
 """
 
-import sys
-import math
-
-# Auto-generated code below aims at helping you parse
-# the standard input according to the problem statement.
-
 n = input()
-
-# Write an answer using print
-# To debug: print("Debug messages...", file=sys.stderr, flush=True)
 best_length = 0
 current = 0
 last_zero = False
